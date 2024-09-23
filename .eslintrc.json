@@ -34,12 +34,15 @@
         "peerDependencies": true
       }
     ],
-    "react/require-default-props": "off"
+    "react/require-default-props": "off",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": [2, { "args": "none" }]
   },
   "settings": {
     "import/resolver": {
       "node": {
-        "extensions": [".tsx", ".jsx", ".ts", ".js"]
+        "extensions": [".tsx", ".jsx", ".ts", ".js"],
+        "paths": ["src"]
       }
     }
   }

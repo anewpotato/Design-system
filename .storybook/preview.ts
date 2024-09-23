@@ -1,6 +1,7 @@
 import type { Preview } from '@storybook/react'
 import previewDecorators from './preview-decorators'
-import '../public/tailwind.css'
+import 'material-icons/iconfont/material-icons.css' // Google Material Icons CSS 추가
+import '../src/components/common/common.css'
 
 const preview: Preview = {
   parameters: {

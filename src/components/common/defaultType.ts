@@ -1,0 +1,6 @@
+export type FontSizeType = 'sm' | 'base' | 'lg' | 'xl' | '2xl'
+export type WidthType = '1/6' | '1/5' | '1/3' | '1/2' | 'full' | 'auto'
+export type ResizeType = 'both' | 'vertical' | 'horizontal' | 'none'
+export type SizeType = 'small' | 'medium' | 'large'
+export type ColorType = 'primary' | 'secondary' | 'success' | 'error' | 'info' | 'warning'
+export type InputSizeType = 'small' | 'medium'
